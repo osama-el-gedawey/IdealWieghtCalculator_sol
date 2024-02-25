@@ -7,6 +7,7 @@
             IdealWieght caseM=new IdealWieght() { Gender='m',Height=170};
             double Actual1= caseM.calculate();
             double Expected1 = 65;
+            int x;
             if(Actual1==Expected1) 
             { 
                 Console.ForegroundColor = ConsoleColor.Green;
